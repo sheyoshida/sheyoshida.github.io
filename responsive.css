@@ -1,0 +1,43 @@
+/* xs */
+@media screen and (min-width: 480px) {
+	.avatar-image {
+		height: 70%;
+		width: 70%;
+	}
+
+	body {
+		background: aquamarine;
+	}
+}
+
+/* s */
+@media screen and (min-width: 576px) {
+	body {
+		background: red;
+	}
+
+}
+
+/* m */
+@media screen and (min-width: 768px) {
+
+	body {
+		background: purple;
+	}
+}
+
+/* l */
+@media screen and (min-width: 992px) {
+	body {
+		background: green;
+	}
+
+}
+
+/* xl */
+@media screen and (min-width: 1200px) {
+	body {
+		background: blue;
+	}
+
+}
