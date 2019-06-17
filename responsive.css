@@ -1,13 +1,17 @@
 /* xs */
 @media screen and (min-width: 480px) {
 	body {
-		margin-left: 15%;
-		margin-right: 15%;
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 
 	.avatar-image {
 		height: 300px;
 		width: 300px;
+	}
+
+	.about {
+		padding-right: 10%;
 	}
 }
 
@@ -23,21 +27,8 @@
 		margin-right: 15%;
 	}
 
-	.header-text {
-		font-size: 55px;
-		line-height: 55px;
-		letter-spacing: 2.92px;
-	}
-
 	.about {
-		font-size: 24px;
-		line-height: 28px;
-		letter-spacing: 1.27px;
 		padding-right: 0%;
-	}
-
-	.nav-button {
-		font-size: 24px;
 	}
 }
 
@@ -46,10 +37,6 @@
 	body {
 		margin-left: 20%;
 		margin-right: 20%;
-	}
-
-	.about {
-		padding-right: 0%;
 	}
 }
 
