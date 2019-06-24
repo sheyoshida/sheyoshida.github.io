@@ -1,13 +1,9 @@
-/* xs */
+/* xs - iPhoneSE */
 @media screen and (min-width: 480px) {
 	body {
 		margin-left: 10%;
 		margin-right: 10%;
-	}
-
-	.avatar-image {
-		height: 300px;
-		width: 300px;
+		background-color: green;
 	}
 
 	.about {
@@ -15,16 +11,25 @@
 	}
 }
 
-/* s */
+@media screen and (min-width: 480px) and (orientation: landscape) {
+
+
+	body {
+		background-color: red;
+	}
+}
+ 
+/* s - iPhoneX */
 @media screen and (min-width: 576px) {
 	.avatar-image {
-		height: 400px;
-		width: 400px;
+		height: 300px;
+		width: 300px;
 	}
 
 	body {
 		margin-left: 15%;
 		margin-right: 15%;
+		background-color: purple;
 	}
 
 	.about {
@@ -32,8 +37,17 @@
 	}
 }
 
-/* m */
+@media screen and (min-width: 576px) and (orientation: landscape) {
+	
+}
+
+/* m - tablet */
 @media screen and (min-width: 768px) {
+	.avatar-image {
+		height: 400px;
+		width: 400px;
+	}
+
 	body {
 		margin-left: 20%;
 		margin-right: 20%;
@@ -63,6 +77,16 @@
 	body {
 		margin-left: 25%;
 		margin-right: 25%;
+	}
+
+	.nav-button {
+	transform: translate(0, 0);
+	transition: transform 100ms ease-out 100ms;
+	}
+
+	.nav-button:hover {
+	transform: translate(0, 5px);
+	color: #FABB02;
 	}
 }
 

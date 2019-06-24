@@ -12,8 +12,8 @@ body {
 
 .avatar-image {
 	border-radius: 50%;
-	height: 300px;
-	width: 300px;
+	height: 200;
+	width: 200;
 }
 
 .header {
@@ -76,14 +76,6 @@ body {
 	font-size: 16px;
 	line-height: 19px;
 	letter-spacing: 1.95px;
-
-	transform: translate(0, 0);
-	transition: transform 100ms ease-out 100ms;
-}
-
-.nav-button:hover {
-	transform: translate(0, 5px);
-	color: #FABB02;
 }
 
 .social-list {
