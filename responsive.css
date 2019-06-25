@@ -1,9 +1,14 @@
-/* xs - iPhoneSE */
+/* xs */
 @media screen and (min-width: 480px) {
 	body {
 		margin-left: 10%;
 		margin-right: 10%;
 		background-color: green;
+	}
+
+	.avatar-image {
+		height: 250px;
+		width: 250px;
 	}
 
 	.about {
@@ -19,17 +24,23 @@
 	}
 }
  
-/* s - iPhoneX */
+/* s - iPhoneSE = 640px wide by 1136px tall */
 @media screen and (min-width: 576px) {
-	.avatar-image {
-		height: 300px;
-		width: 300px;
-	}
-
 	body {
 		margin-left: 15%;
 		margin-right: 15%;
 		background-color: purple;
+	}
+
+	.image-div {
+		margin-top: 10%;
+		margin-bottom: -100px;
+	}
+
+	.avatar-image {
+		height: 300px;
+		width: 300px;
+		height: 300px;
 	}
 
 	.about {
@@ -41,16 +52,23 @@
 	
 }
 
-/* m - tablet */
+/* m - iPhoneX       1125px wide by 2436px tall
+	   iPhoneXS Max  1242px wide by 2688px tall
+	   */
 @media screen and (min-width: 768px) {
-	.avatar-image {
-		height: 400px;
-		width: 400px;
-	}
-
 	body {
 		margin-left: 20%;
 		margin-right: 20%;
+		background-color: red;
+	}
+
+	.image-div {
+		margin-bottom: -150px;
+	}
+
+	.avatar-image {
+		height: 400px;
+		width: 400px;
 	}
 
 	.header-text {
@@ -68,7 +86,16 @@
 	.nav-button {
 		font-size: 24px;
 		line-height: 28px;
+		width: 150px;
 		letter-spacing: 1.95px;
+		transform: translate(0, 0);
+	 	transition: transform 100ms ease-out 100ms;
+	}
+
+
+	.nav-button:hover {
+		transform: translate(0, 5px);
+		color: #FABB02;
 	}
 }
 
@@ -77,21 +104,22 @@
 	body {
 		margin-left: 25%;
 		margin-right: 25%;
-	}
-
-	.nav-button {
-	transform: translate(0, 0);
-	transition: transform 100ms ease-out 100ms;
-	}
-
-	.nav-button:hover {
-	transform: translate(0, 5px);
-	color: #FABB02;
+		background-color: blue;
 	}
 }
 
 /* xl */
 @media screen and (min-width: 1200px) {
+
+	body {
+		background-color: aqua;
+	}
+
+	.image-div {
+		margin-top: 10%;
+		margin-bottom: -170px;
+	}
+
 	.about {
 		padding-right: 20%;
 	}

@@ -7,18 +7,17 @@ body {
 .image-div {
 	text-align: center;
 	margin-top: 50px;
-	margin-bottom: -100px;
+	margin-bottom: -75px;
 }
 
 .avatar-image {
 	border-radius: 50%;
-	height: 200;
-	width: 200;
+	height: 200px;
+	width: 200px;
 }
 
 .header {
-	vertical-align: middle;
-	width: 100%;
+    width: 100%;
 	text-align: left;
 }
 
@@ -67,8 +66,9 @@ body {
 .nav-button {
 	background-color: transparent;
 	border: none;
+	outline: none;
 	padding: 0px;
-	width: 150px;
+	width: 100px;
 	font-family: 'Roboto', Helvetica, sans-serif;
 	color: #FED766;
 
@@ -76,6 +76,10 @@ body {
 	font-size: 16px;
 	line-height: 19px;
 	letter-spacing: 1.95px;
+}
+
+.nav-button:focus {
+	color: #FABB02;
 }
 
 .social-list {
