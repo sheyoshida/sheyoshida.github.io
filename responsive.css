@@ -3,8 +3,8 @@
 	body {
 		margin-left: 10%;
 		margin-right: 10%;
-		background-color: green;
-	}
+/*		background-color: green;
+*/	}
 
 	.avatar-image {
 		height: 250px;
@@ -20,17 +20,17 @@
 
 
 	body {
-		background-color: red;
-	}
+/*		background-color: red;
+*/	}
 }
  
-/* s - iPhoneSE = 640px wide by 1136px tall */
+/* s */
 @media screen and (min-width: 576px) {
 	body {
 		margin-left: 15%;
 		margin-right: 15%;
-		background-color: purple;
-	}
+/*		background-color: purple;
+*/	}
 
 	.image-div {
 		margin-top: 10%;
@@ -52,15 +52,13 @@
 	
 }
 
-/* m - iPhoneX       1125px wide by 2436px tall
-	   iPhoneXS Max  1242px wide by 2688px tall
-	   */
+/* m - iPad Mini */
 @media screen and (min-width: 768px) {
 	body {
 		margin-left: 20%;
 		margin-right: 20%;
-		background-color: red;
-	}
+/*		background-color: red;
+*/	}
 
 	.image-div {
 		margin-bottom: -150px;
@@ -104,16 +102,16 @@
 	body {
 		margin-left: 25%;
 		margin-right: 25%;
-		background-color: blue;
-	}
+/*		background-color: blue;
+*/	}
 }
 
 /* xl */
 @media screen and (min-width: 1200px) {
 
 	body {
-		background-color: aqua;
-	}
+/*		background-color: aqua;
+*/	}
 
 	.image-div {
 		margin-top: 10%;
