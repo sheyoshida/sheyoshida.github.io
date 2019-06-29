@@ -3,8 +3,8 @@
 	body {
 		margin-left: 10%;
 		margin-right: 10%;
-/*		background-color: green;
-*/	}
+		background-color: green;
+	}
 
 	.avatar-image {
 		height: 250px;
@@ -17,11 +17,9 @@
 }
 
 @media screen and (min-width: 480px) and (orientation: landscape) {
-
-
 	body {
-/*		background-color: red;
-*/	}
+		background-color: red;
+	}
 }
  
 /* s */
@@ -29,8 +27,8 @@
 	body {
 		margin-left: 15%;
 		margin-right: 15%;
-/*		background-color: purple;
-*/	}
+		background-color: purple;
+	}
 
 	.image-div {
 		margin-top: 10%;
@@ -52,13 +50,19 @@
 	
 }
 
-/* m - iPad Mini */
+/* m */
 @media screen and (min-width: 768px) {
 	body {
 		margin-left: 20%;
 		margin-right: 20%;
-/*		background-color: red;
-*/	}
+		background-color: red;
+	}
+
+	h1 {
+		font-size: 55px;
+		line-height: 55px;
+		letter-spacing: 2.92px;
+	}
 
 	.image-div {
 		margin-bottom: -150px;
@@ -67,12 +71,6 @@
 	.avatar-image {
 		height: 400px;
 		width: 400px;
-	}
-
-	.header-text {
-		font-size: 55px;
-		line-height: 55px;
-		letter-spacing: 2.92px;
 	}
 
 	.about {
@@ -86,14 +84,10 @@
 		line-height: 28px;
 		width: 150px;
 		letter-spacing: 1.95px;
-		transform: translate(0, 0);
-	 	transition: transform 100ms ease-out 100ms;
 	}
 
-
 	.nav-button:hover {
-		transform: translate(0, 5px);
-		color: #FABB02;
+	color: #FABB02;
 	}
 }
 
@@ -102,16 +96,16 @@
 	body {
 		margin-left: 25%;
 		margin-right: 25%;
-/*		background-color: blue;
-*/	}
+		background-color: blue;
+	}
 }
 
 /* xl */
 @media screen and (min-width: 1200px) {
 
 	body {
-/*		background-color: aqua;
-*/	}
+		background-color: aqua;
+	}
 
 	.image-div {
 		margin-top: 10%;

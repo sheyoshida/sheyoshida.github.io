@@ -1,7 +1,15 @@
 body {
 	background-color: #272727;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+h1 {
+	color: #2BA84A;
+	font-family: 'Poppins-Bold', Helvetica, sans-serif;
+	font-size: 33px;
+	line-height: 40px;
+	letter-spacing: 1.75px;
 }
 
 .image-div {
@@ -21,14 +29,6 @@ body {
 	text-align: left;
 }
 
-.header-text {
-	color: #2BA84A;
-	font-family: 'Poppins-Bold', Helvetica, sans-serif;
-	font-size: 33px;
-	line-height: 40px;
-	letter-spacing: 1.75px;
-}
-
 .about {
 	color: #EEEBD0;
 	text-align: left;
@@ -37,7 +37,7 @@ body {
 	line-height: 19px;
 	letter-spacing: 0.85px;
 	margin-top: -10px;
-	padding-right: 30%;
+	padding-right: 16px;
 }
 
 .footer {
@@ -47,28 +47,25 @@ body {
 	height: 100px;
 	width: 100%;
 	text-align: center;
-	margin-left: -24px;
+	background-color: purple;
 }
 
 .nav {
 	width: 100%;
+	background-color: #272727;
 }
 
 .nav-list {
-	text-align: center;
+	margin-top: 0px;
 }
 
 .nav-list-item {
 	display: inline-block;
-
+	margin-right: 24px;
 }
 
 .nav-button {
 	background-color: transparent;
-	border: none;
-	outline: none;
-	padding: 0px;
-	width: 100px;
 	font-family: 'Roboto', Helvetica, sans-serif;
 	color: #FED766;
 
@@ -76,6 +73,7 @@ body {
 	font-size: 16px;
 	line-height: 19px;
 	letter-spacing: 1.95px;
+	text-decoration: none;
 }
 
 .nav-button:focus {
@@ -94,7 +92,7 @@ body {
 .social-button {
 	background-color: transparent;
 	height: 30px;
-	width: 30px;
+	width: 40px;
 	border: none;
 }
 
