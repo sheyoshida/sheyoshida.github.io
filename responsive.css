@@ -20,13 +20,14 @@
 	}
 }
 
+/* iPhoneSE in landscape */
 @media screen and (min-width: 480px) and (orientation: landscape) {
 	body {
 		background-color: red;
 	}
 }
  
-/* s */
+/* s - iPhoneX in landscape */
 @media screen and (min-width: 576px) {
 	body {
 		margin-left: 15%;
