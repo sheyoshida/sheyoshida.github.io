@@ -31,7 +31,7 @@
 	}
 
 	.image-div {
-		margin-top: 10%;
+		margin-top: 20%;
 		margin-bottom: -100px;
 	}
 
@@ -50,7 +50,7 @@
 	
 }
 
-/* m */
+/* m - iPad */
 @media screen and (min-width: 768px) {
 	body {
 		margin-left: 20%;
@@ -100,7 +100,7 @@
 	}
 }
 
-/* xl */
+/* xl - Desktop */
 @media screen and (min-width: 1200px) {
 
 	body {
@@ -108,11 +108,15 @@
 	}
 
 	.image-div {
-		margin-top: 10%;
+		margin-top: 15%;
 		margin-bottom: -170px;
 	}
 
 	.about {
 		padding-right: 20%;
+	}
+
+	.footer {
+		height: 100px;
 	}
 }

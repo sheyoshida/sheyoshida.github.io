@@ -14,7 +14,7 @@ h1 {
 
 .image-div {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 15%;
 	margin-bottom: -75px;
 }
 
@@ -44,7 +44,7 @@ h1 {
 	position: fixed;
 	left: 0px;
 	bottom: 0px;
-	height: 100px;
+	height: 35px;
 	width: 100%;
 	text-align: center;
 	background-color: purple;
