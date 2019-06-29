@@ -87,7 +87,11 @@
 	}
 
 	.nav-button:hover {
-	color: #FABB02;
+		color: #FABB02;
+	}
+
+	.footer {
+		height: 43px;
 	}
 }
 
@@ -97,6 +101,10 @@
 		margin-left: 25%;
 		margin-right: 25%;
 		background-color: blue;
+	}
+
+	.image-div {
+		margin-top: 15%;
 	}
 }
 
