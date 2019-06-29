@@ -14,6 +14,10 @@
 	.about {
 		padding-right: 10%;
 	}
+
+	.nav-list-item {		
+	margin-right: 24px;
+	}
 }
 
 @media screen and (min-width: 480px) and (orientation: landscape) {
