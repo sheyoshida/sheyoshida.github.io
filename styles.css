@@ -48,7 +48,6 @@ h1 {
 	height: 35px;
 	width: 100%;
 	text-align: center;
-	background-color: purple;
 }
 
 .nav {
@@ -95,5 +94,9 @@ h1 {
 	height: 30px;
 	width: 40px;
 	border: none;
+}
+
+.resume {
+	color: #EEEBD0;
 }
 

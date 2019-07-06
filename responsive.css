@@ -20,7 +20,7 @@
 	}
 }
 
-/* iPhoneSE in landscape */
+/* iPhoneSE in landscape*/
 @media screen and (min-width: 480px) and (orientation: landscape) {
 	body {
 		background-color: red;
@@ -117,7 +117,7 @@
 @media screen and (min-width: 1200px) {
 
 	body {
-		background-color: aqua;
+		background-color: #272727;
 	}
 
 	.image-div {
@@ -130,6 +130,6 @@
 	}
 
 	.footer {
-		height: 100px;
+		height: 80px;
 	}
 }
