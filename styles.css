@@ -12,6 +12,38 @@ h1 {
 	letter-spacing: 1.75px;
 }
 
+h4 {
+	color: #2BA84A;
+	font-family: 'Poppins-Bold', Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 33px;
+	letter-spacing: 2.93px;
+}
+
+h5 {
+	color: black;
+	font-family: 'Roboto-Bold', Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: 2.19px;
+}
+
+h6 {
+	color: black;
+	font-family: 'Nunito-Bold', Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 23px;
+	letter-spacing: 0.85px;
+}
+
+.body_text {
+	color: black;
+	font-family: 'Nunito', Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 23px;
+	letter-spacing: 0.85px;
+}
+
 .image-div {
 	text-align: center;
 	margin-top: 20%;
@@ -124,12 +156,11 @@ h1 {
 }
 
 #experience_awards {
-	background-color: red;
 
 }
 
 #contact_skills {
-	background-color: yellow;
+
 }
 
 .modal-drawer {
