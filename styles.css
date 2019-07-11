@@ -114,7 +114,22 @@ h1 {
 }
 
 .resume {
-	color: #EEEBD0;
+	color: pink;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin-top: 32px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#experience_awards {
+	background-color: red;
+
+}
+
+#contact_skills {
+	background-color: yellow;
 }
 
 .modal-drawer {

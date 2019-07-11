@@ -137,6 +137,21 @@
 		background-color: #272727;
 	}
 
+	.resume {
+		flex-direction: row;
+		margin-top: 50px;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	#experience_awards {
+		padding: 40px 50px;
+	}
+
+	#contact_skills {
+		padding: 40px 50px;
+	}
+
 	.image-div {
 		margin-top: 15%;
 		margin-bottom: -170px;
