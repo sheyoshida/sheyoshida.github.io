@@ -42,6 +42,17 @@ h6 {
 	font-size: 16px;
 	line-height: 23px;
 	letter-spacing: 0.85px;
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.job_description_text {
+	color: black;
+	font-family: 'Nunito', Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 23px;
+	letter-spacing: 0.85px;
 }
 
 .image-div {
