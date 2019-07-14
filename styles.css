@@ -1,7 +1,5 @@
 body {
 	background-color: #272727;
-	
-
 	margin-left: 5%;
 	margin-right: 5%;
 }
@@ -93,10 +91,11 @@ h6 {
 	height: 35px;
 	width: 100%;
 	text-align: center;
+	background-color: #272727;
+
 }
 
 .nav {
-	width: 100%;
 	background-color: #272727;
 }
 
@@ -141,23 +140,6 @@ h6 {
 	color: #FABB02;
 }
 
-.social-list {
-	text-align: center;
-	margin-right: 50px;
-}
-
-.social-list-item {
-	display: inline-block;
-}
-
-.social-button {
-	background-color: transparent;
-	height: 30px;
-	width: 40px;
-	padding: 0px 8px;
-	border: none;
-}
-
 .resume {
 	color: pink;
 	display: flex;
@@ -174,17 +156,6 @@ h6 {
 
 #contact_skills {
 	height: fit-content;
-}
-
-.modal-drawer {
-	position: fixed;
-	max-height: 70px;
-	bottom: 20px;
-	left: 0px;
-	width: 100%;
-	padding: 2em;
-	background: #272727;
-	display: none;
 }
 
 .contact-text {
