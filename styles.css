@@ -1,5 +1,7 @@
 body {
 	background-color: #272727;
+	
+
 	margin-left: 5%;
 	margin-right: 5%;
 }
@@ -21,7 +23,7 @@ h4 {
 }
 
 h5 {
-	color: black;
+	color: #FDF39B;
 	font-family: 'Roboto-Bold', Helvetica, sans-serif;
 	font-size: 18px;
 	line-height: 21px;
@@ -29,7 +31,7 @@ h5 {
 }
 
 h6 {
-	color: black;
+	color: #EEEBD0;
 	font-family: 'Nunito-Bold', Helvetica, sans-serif;
 	font-size: 16px;
 	line-height: 23px;
@@ -37,8 +39,8 @@ h6 {
 }
 
 .body_text {
-	color: black;
-	font-family: 'Nunito', Helvetica, sans-serif;
+	color: #EEEBD0;
+	font-family: 'Nunito-Light', Helvetica, sans-serif;
 	font-size: 16px;
 	line-height: 23px;
 	letter-spacing: 0.85px;
@@ -48,8 +50,8 @@ h6 {
 }
 
 .job_description_text {
-	color: black;
-	font-family: 'Nunito', Helvetica, sans-serif;
+	color: #EEEBD0;
+	font-family: 'Nunito-Light', Helvetica, sans-serif;
 	font-size: 16px;
 	line-height: 23px;
 	letter-spacing: 0.85px;
