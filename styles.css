@@ -148,7 +148,7 @@ h6 {
 .resume {
 	color: pink;
 	display: flex;
-	flex-direction: column;
+	flex-direction: column-reverse;
 	height: 100%;
 	margin-top: 32px;
 	margin-left: 5%;
@@ -156,11 +156,11 @@ h6 {
 }
 
 #experience_awards {
-
+	margin-bottom: 50px;
 }
 
 #contact_skills {
-
+	height: fit-content;
 }
 
 .modal-drawer {
