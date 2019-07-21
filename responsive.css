@@ -125,6 +125,16 @@
 
 	.project_description {
 		margin-bottom: 250px;
+		margin-top: 24px;
+	}
+
+	.gallery_image {
+		transform: scale(1);
+  		transition: all 1s ease-out 100ms;
+	}
+
+	.gallery_image:hover {
+		transform: scale(1.05);
 	}
 
 	#work {
