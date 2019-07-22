@@ -123,6 +123,10 @@ h6 {
 	text-decoration: none;
 }
 
+.nav-button:hover {
+	color: #FABB02;
+}
+
 .nav-button:focus {
 	color: #FABB02;
 }
@@ -179,9 +183,17 @@ h6 {
 	text-decoration: none;
 
 	border-bottom: solid 1px #FED766;
-    display: inline;
-    padding-bottom: 0px;
-    line-height: 36px;
+	display: inline;
+	padding-bottom: 0px;
+	line-height: 36px;
+}
+
+.prototype_link:hover {
+	color: #FABB02;
+}
+
+.prototype_link:focus {
+	color: #FABB02;
 }
 
 .resume_link {
@@ -192,10 +204,17 @@ h6 {
 	text-decoration: none;
 
 	border-bottom: solid 1px #FED766;
-    display: inline;
-    line-height: 26px;
+	display: inline;
+	line-height: 26px;
 }
 
+.resume_link:hover {
+	color: #FABB02;
+}
+
+.resume_link:focus {
+	color: #FABB02;
+}
 
 }
 
