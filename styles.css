@@ -93,23 +93,32 @@ h6 {
 	width: 100%;
 	text-align: center;
 	padding-top: 16px;
-	padding-bottom: 16px;
+	padding-bottom: 40px;
 	background-color: #272727;
+	margin-left: -16px;
 
 }
 
 .nav {
-	background-color: #272727;
+	display: table;
+	margin: 0 auto;
 }
 
 .nav-list {
-	margin-top: 0px;
+	width: fit-content;
+	list-style: none;
+	padding-inline-start: 32px;
+	display: inline-block;
+	text-align: center;
 }
 
 .nav-list-item {
 	display: inline-block;
+	text-align: center;
+	margin-left: 16px;
 	margin-right: 16px;
 }
+
 
 .nav-button {
 	background-color: transparent;
