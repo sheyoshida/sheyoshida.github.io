@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Portfolio | Shena Yoshida</title>
+
+	<link href="normalize.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins%7cRoboto%7cNunito&display=swap" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="styles.css" >
+	<link rel="stylesheet" href="responsive.css"> 
+	<script src="script.js" defer></script>
+</head>
+
+<body id="email_form">
+	
+	<div class="container">
+      <form id="mailer">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+        <label for="sender">Email</label>
+        <input type="email" id="sender" name="sender" placeholder="Your email address...">
+        
+        <label for="text">Subject</label>
+        <textarea id="text" name="text" placeholder="Write something..." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+        <div class="lds-dual-ring"></div>
+        <div id="result"></div>
+      </form>
+    </div> 
+
+	<footer class="footer">
+		<nav class="nav">
+			<ul class="nav-list">
+				<li class="nav-list-item"><a class="nav-button" href="index.html">About</a></li>
+				<li class="nav-list-item"><a class="nav-button" href="work.html">Work</a></li>
+				<li class="nav-list-item"><a class="nav-button" href="resume.html">Resume</a></li>
+			</ul>
+		</nav>
+	</footer>
+
+	<script src="script.js"></script>
+
+</body>	
+
+</html>
